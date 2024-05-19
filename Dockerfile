@@ -1,9 +1,9 @@
-FROM debian:bullseye
-LABEL maintainer="Jeff Geerling"
+FROM debian:bookworm-slim
+LABEL maintainer="Jan Philipp Ecker"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV pip_packages "ansible cryptography"
+ENV pip_packages "ansible ansible-lint cryptography"
 
 # Install dependencies.
 RUN apt-get update \
