@@ -1,6 +1,6 @@
 # Debian 11 (Bullseye) Ansible Test Image
 
-[![CI](https://github.com/geerlingguy/docker-debian11-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-debian11-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian11-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian11-ansible/)
+[![Build](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian11-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian11-ansible/)
 
 Debian 11 (Bullseye) Docker container for Ansible playbook and role testing.
 
